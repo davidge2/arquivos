@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body{
+    background-color: lightsteelblue;
+}
+h1{
+    text-align: center;
+    background-color: darkcyan;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    border-radius: 5px 3px 5px 3px;
+}
+.caixa{
+    margin: auto;
+    background: rgba(229, 73, 73, 0.666);
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid yellow;
+}
+.letra1{
+    padding: 15px 0px 0px 0px;
+    font-size: 20px;
+}
+input#tx-1{
+    height: 25px;
+    border:2px dashed rgb(233, 60, 7);
+    margin-bottom: 10px;
+    color: aquamarine;
+    background: rgba(255, 127, 80, 0.732);
+    border-radius: 5px 5px 5px 5px;
+}
+
+input#botao{
+    width: 100px;
+    height: 31px;
+    font-size: 18px;
+    background-color: rgba(144, 14, 209, 0.885);
+    color: rgb(156, 156, 156);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border: 3px solid rgb(6, 243, 6);
+}
+input#botao:hover{
+    background-color: darksalmon;
+}
+div#res{
+    width: 290px;
+}

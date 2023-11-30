@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: deepskyblue;
+}
+h1{
+    text-align: center;
+}
+.caixa{
+    margin: auto;
+    padding-top: 30px;
+    width: 200px;
+    height: 230px;
+}
+.letra{
+    font-size: 18px;
+}
+input#txtvel{
+    width: 150px;
+    margin-left: 20px;
+    border:2px solid black;
+}
+.botao{
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 150px;
+}
+
+#res{
+    text-align: center;
+}

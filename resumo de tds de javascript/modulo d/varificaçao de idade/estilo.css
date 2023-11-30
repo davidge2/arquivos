@@ -1,0 +1,88 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+:root {
+    --font1: 'Lobster', sans-serif;
+    --font2: 'Kdam Thmor Pro', sans-serif;
+    --font3: 'Permanent Marker', 'curvise';
+    --font4: 'bangers', 'cursive';
+    --font5: 'Electrolize', 'sans-serif';
+}
+body {
+    background: #911b7fb8;
+}
+p.ano-t{
+    margin-left:6em;
+}
+h1{
+    text-align: center;
+    font-family: var(--font1);
+    height: 60px;
+    padding: 3px;
+    margin: auto;
+    margin-top: 30px;
+}
+section {
+    background: rgb(154, 69, 69);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
+}
+.ano-t{
+    font-family: var(--font2);
+    width: 324px;
+}
+.sx-t{
+    margin-right: 30px;
+    text-align: center;
+    font-family: var(--font3);
+    color: chartreuse;
+    accent-color: red;
+}
+.botao{
+    background-color: rgb(215, 160, 18);
+    height: 35px;
+    width: 20.5em;
+    font-family: var(--font4);
+    font-size: 18pt;
+    border: 3px double rgb(24, 123, 143);
+    border-radius: 25%;
+}
+.botao:hover{
+    cursor: pointer;
+    background-color: rgba(231, 231, 231, 0.351);
+}
+input#txtano{
+    font-family: var(--font2);
+    width:10em;
+    height: 20px;
+    background-color: darkslateblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+div#res {
+    background-color: rgb(232, 113, 208);
+    color: rgb(175, 238, 200);
+    font-size: 20px;
+    font-family: var(--font5);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    border: 3px solid red;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.468);
+}
+
+footer {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

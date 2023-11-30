@@ -1,0 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 40%;
+    border: 3px solid black;
+    width: 400px;
+    margin-left: 19%;
+}
+.caixa{
+    background-color: red;
+    padding: 1em;
+    color: gold;
+}

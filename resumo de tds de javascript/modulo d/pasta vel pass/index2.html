@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificaçao de passaport</title>
+    <link rel="stylesheet" href="/pasta vel pass/st/style.css">
+</head>
+<body>
+    <h1>DIGITE SEU PAÍS</h1>
+    <div class="caixa" >
+        <p class="letra1">digite aqui</p><input type="text" name="tx-1" id="tx-1">
+        <input id="botao" type="button" value="verificar" onclick="calcular()">
+        <div id="res"></div>
+    </div>
+    <script>
+    function calcular(){
+            var t = document.querySelector('input#tx-1')
+            var res = document.querySelector('div#res')
+            var q = t.value
+            res.innerHTML = `SEU PAÍS É ${q}`
+            if (q == "BRASIL"){
+                res.innerHTML += `<p>seu país e <strong>BRASILEIRO!</strong></p>`
+                res.innerHTML += `<p>seja bem vindo ao <strong>BRASIL!</strong></p>`
+            } else {
+                res.innerHTML += `<p>seu pais e <strong>ESTRANJEIRO!</strong></p>`
+                res.innerHTML += `<p>welcome to  <strong>EUA</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
